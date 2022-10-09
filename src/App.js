@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter } from "react-router-dom";
 import Mobile from "./components/Mobile";
 import React, {useState} from "react";
+import Hero from "./components/Hero";
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
       <Mobile isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/>
+      <Hero />
     </BrowserRouter>
   );
 }

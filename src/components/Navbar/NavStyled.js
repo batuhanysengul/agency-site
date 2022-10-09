@@ -3,8 +3,9 @@ import { Link as RouterLink } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 
 export const Nav = styled.nav`
-    background: black;
+    background: transparent;
     height: 80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
