@@ -12,20 +12,20 @@ import {
     NavBtnLink
 } from './NavStyled.js'
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
             <NavLogo to='/'>AGENCY</NavLogo>
-            <Hamburger>
+            <Hamburger onClick={toggle}>
                 <FaBars />
             </Hamburger>
             <NavItems>
             <NavItem>
-                <NavLinks to='/about'>About</NavLinks>
-                <NavLinks to='/team'>Team</NavLinks>
-                <NavLinks to='/services'>Services</NavLinks>
+                <NavLinks to='about'>About</NavLinks>
+                <NavLinks to='team'>Team</NavLinks>
+                <NavLinks to='customers'>Customers</NavLinks>
             </NavItem>
             <NavBtn>
                 <NavBtnLink to='/signup'>Sign up</NavBtnLink>

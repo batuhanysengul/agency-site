@@ -80,7 +80,7 @@ export const NavLinks = styled(ScrollLink)`
     margin: 0 25px;
     
     &.active{
-        border-bottom: 3px solid #374e3a;
+        border-bottom: 3px solid grey;
     }
 `
 
