@@ -29,7 +29,7 @@ export const NavbarContainer = styled.div`
     padding: 0 25px;
 `
 
-export const NavLogo = styled(RouterLink)`
+export const NavLogo = styled(ScrollLink)`
     color: white;
     display: flex;
     justify-self: flex-start;

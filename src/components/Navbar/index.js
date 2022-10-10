@@ -17,15 +17,32 @@ const Navbar = ({toggle}) => {
     <>
       <Nav>
         <NavbarContainer>
-            <NavLogo to='/'>AGENCY</NavLogo>
+            <NavLogo to='home'
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            >AGENCY</NavLogo>
             <Hamburger onClick={toggle}>
                 <FaBars />
             </Hamburger>
             <NavItems>
             <NavItem>
-                <NavLinks to='about'>About</NavLinks>
-                <NavLinks to='team'>Team</NavLinks>
-                <NavLinks to='customers'>Customers</NavLinks>
+                <NavLinks to='about'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'>About</NavLinks>
+                <NavLinks to='team'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'>Team</NavLinks>
+                <NavLinks to='customers'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'>Customers</NavLinks>
             </NavItem>
             <NavBtn>
                 <NavBtnLink to='/signup'>Sign up</NavBtnLink>
