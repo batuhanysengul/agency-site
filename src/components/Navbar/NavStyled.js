@@ -79,9 +79,12 @@ export const NavLinks = styled(ScrollLink)`
     display: flex;
     align-items: center;
     margin: 0 25px;
+    cursor: pointer;
     
-    &.active{
-        border-bottom: 3px solid grey;
+    &:hover{
+        color: darkgray;
+        transform: translateY(5px);
+        transition: 0.3s ease-in-out;
     }
 `
 

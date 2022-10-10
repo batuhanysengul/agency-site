@@ -6,6 +6,7 @@ import React, {useState} from "react";
 import Hero from "./components/Hero";
 import About from "./components/About"; 
 import {AboutObj1, AboutObj2} from '../src/components/About/Data'
+import Marquee from "./components/Customers";
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
       <Hero />
       <About {...AboutObj1} />
       <About {...AboutObj2} />
+      <Marquee />
     </BrowserRouter>
   );
 }
