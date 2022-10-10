@@ -7,7 +7,7 @@ export const AboutObj1 = {
     heading: 'Lorem ipsum dolor sit amet',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit maxime itaque perspiciatis.',
     imgStart: false,
-    img: require('../../assets/svg2.svg').default,
+    img: require('../../assets/svg1.svg').default,
     dark: true,
     primary: true,
     darkTxt: false
@@ -22,10 +22,11 @@ export const AboutObj2 = {
     heading: 'Lorem ipsum dolor sit amet',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit maxime itaque perspiciatis.',
     imgStart: false,
-    img: require('../../assets/svg1.svg').default,
+    img: require('../../assets/svg2.svg').default,
     dark: false,
     primary: false,
     darkTxt: true
 } 
+
 
 
