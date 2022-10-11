@@ -45,7 +45,7 @@ const Navbar = ({toggle}) => {
                 exact='true'>Customers</NavLinks>
             </NavItem>
             <NavBtn>
-                <NavBtnLink to='/signup'>Sign up</NavBtnLink>
+                <NavBtnLink to='/contact'>Contact Us</NavBtnLink>
             </NavBtn>
             </NavItems>
         </NavbarContainer>

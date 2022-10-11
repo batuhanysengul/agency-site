@@ -28,7 +28,7 @@ const Mobile = ({isOpen, toggle}) => {
                 </MobileLink>
             </MobileMenu>
             <MobileBtnWrap>
-                <MobileRoutes to='/signup' onClick={toggle}>Sign Up</MobileRoutes>
+                <MobileRoutes to='/contact' onClick={toggle}>Contact Us</MobileRoutes>
             </MobileBtnWrap>
     </MobileContainer>
   )
