@@ -18,7 +18,7 @@ export const AboutObj2 = {
     lightBg: true,
     lightTxt: false,
     lightTextDexc: false,
-    topLine: 'About us',
+    topLine: 'Team',
     heading: 'Lorem ipsum dolor sit amet',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit maxime itaque perspiciatis.',
     imgStart: false,
